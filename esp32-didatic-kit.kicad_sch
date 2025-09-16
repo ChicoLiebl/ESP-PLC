@@ -1,0 +1,136 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f57920a5-fee7-4fe5-a133-e8b36941a5a6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 32.385 25.4)
+		(size 44.45 36.195)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5")
+		(property "Sheetname" "Power Supply"
+			(at 32.385 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/power-supply.kicad_sch"
+			(at 32.385 62.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VPP_CONN_RST" input
+			(at 32.385 44.45 180)
+			(uuid "8a2efe27-8ebc-4f6a-8b28-c53ce75dbd5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VPP_DAC" input
+			(at 32.385 31.75 180)
+			(uuid "98240482-33a7-43d3-9136-cf1ab46cba87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VPP_en" input
+			(at 32.385 38.1 180)
+			(uuid "1873746b-d6bf-403f-a64e-7679cc764a7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VPP_sense" output
+			(at 76.835 31.75 0)
+			(uuid "97e2fd98-7b21-4dfe-834c-7a85467dc9f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_DAC_SCL" input
+			(at 32.385 54.61 180)
+			(uuid "d245d08d-d8ea-4668-85be-eb89993ce6c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREF_DAC_SDA" bidirectional
+			(at 32.385 58.42 180)
+			(uuid "ed2e2bbc-7097-4ba8-8097-3fcb0d295149")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREF_DAC_Sense" bidirectional
+			(at 76.835 44.45 0)
+			(uuid "d3ba2f94-b028-48ec-b8d6-33aa855e0b4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_REF" output
+			(at 76.835 38.1 0)
+			(uuid "f9b95339-de0c-493b-a282-f7aca59a5b8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
