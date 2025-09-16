@@ -1126,7 +1126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Passive:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 97.79 60.96 0)
 			(effects
 				(font

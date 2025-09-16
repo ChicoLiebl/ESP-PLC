@@ -850,7 +850,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Transistors:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1084,7 +1084,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Transistors:SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1330,7 +1330,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Transistors:SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -3166,7 +3166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transistors:SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -3795,7 +3795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistors:SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 185.42 116.84 0)
 			(effects
 				(font
@@ -3945,7 +3945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Passive:SOD-123_L2.6-W1.7-LS3.5-RD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 203.2 63.5 0)
 			(effects
 				(font
@@ -4024,7 +4024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistors:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 229.87 96.52 0)
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -4540,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 58.42 109.22 0)
 			(effects
 				(font
@@ -4577,28 +4577,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "77bd5204-80b8-4a9e-a16d-096b12738667")
+			(uuid "77bd5204-80b8-4a9e-a16d-096b12738668")
 		)
 		(pin "1"
-			(uuid "8fbeea0f-982e-498b-b407-0a25dfbe5ba4")
+			(uuid "8fbeea0f-982e-498b-b407-0a25dfbe5ba5")
 		)
 		(pin "3"
-			(uuid "1617431c-e5c3-45e6-8965-48ec5c281099")
+			(uuid "1617431c-e5c3-45e6-8965-48ec5c28109a")
 		)
 		(pin "5"
-			(uuid "10e92468-f05a-40d1-bd5f-eeb09f4b24ef")
+			(uuid "10e92468-f05a-40d1-bd5f-eeb09f4b24f0")
 		)
 		(pin "6"
-			(uuid "8c9b4187-c09b-4243-86f8-544b5e781606")
+			(uuid "8c9b4187-c09b-4243-86f8-544b5e781607")
 		)
 		(pin "8"
-			(uuid "842cbc60-4c5b-43eb-9799-3bfded97c5c0")
+			(uuid "842cbc60-4c5b-43eb-9799-3bfded97c5c1")
 		)
 		(pin "2"
-			(uuid "f64d27c8-0a2f-42e2-9ec9-00c7f8dab409")
+			(uuid "f64d27c8-0a2f-42e2-9ec9-00c7f8dab40a")
 		)
 		(pin "4"
-			(uuid "e0b7b4e7-66fd-45f2-a9d7-552910c46acb")
+			(uuid "e0b7b4e7-66fd-45f2-a9d7-552910c46acc")
 		)
 		(instances
 			(project ""
@@ -5049,7 +5049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistors:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 250.19 105.41 0)
 			(effects
 				(font

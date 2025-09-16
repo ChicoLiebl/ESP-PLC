@@ -1304,17 +1304,6 @@
 		)
 		(uuid "ff842afd-7481-480e-8691-84b39371c908")
 	)
-	(hierarchical_label "Vin"
-		(shape input)
-		(at 80.01 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40db16fb-7128-4871-aaa1-b813fe4ebb1c")
-	)
 	(hierarchical_label "Vout"
 		(shape output)
 		(at 231.14 69.85 0)
@@ -1324,38 +1313,49 @@
 			)
 			(justify left)
 		)
-		(uuid "bdf3fe46-6bb6-4f5b-af3a-301f968f00ab")
+		(uuid "aa4084c7-2462-4f3d-b15d-4711ac07e5a7")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 80.01 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de249940-1970-4093-b87d-adde98e50482")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 215.9 100.33 180)
+		(lib_id "Device:C")
+		(at 180.34 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0877547c-95b3-4d8c-bc21-256d904d15b0")
-		(property "Reference" "R8"
-			(at 218.44 99.0599 0)
+		(uuid "1e359a3d-23cf-444f-aaa3-9d535f0c2a43")
+		(property "Reference" "C8"
+			(at 184.15 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 218.44 101.5999 0)
+		(property "Value" "22uF"
+			(at 184.15 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 217.678 100.33 90)
+			(at 181.3052 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1364,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 100.33 0)
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba5b1f9a-3e2d-4948-8eb7-1940ea215bb6")
+		)
+		(pin "2"
+			(uuid "0b4a4186-d25a-4852-b2bb-134247ece743")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39faf4ab-8da1-48b9-8815-e52cd110ecef")
+		(property "Reference" "R6"
+			(at 218.44 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 218.44 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.678 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1443,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 100.33 0)
+			(at 215.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,81 +1452,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "515417a2-ace9-4759-817e-49aad2fcbef3")
+			(uuid "1c1d7728-73fd-4c63-be53-192c0af35a7e")
 		)
 		(pin "1"
-			(uuid "773b5d07-1d63-4ef1-a28d-d045f7ddbf5b")
+			(uuid "06a303df-9eb2-4e9e-bf63-7481c817f291")
 		)
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a29f3a4-5866-4351-a256-92ca148bcd72")
-		(property "Reference" "#PWR03"
-			(at 80.01 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67a2cd50-471c-462b-977e-10a4e2a1009b")
-		)
-		(instances
-			(project "esp32-didatic-kit"
-				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
-					(reference "#PWR03")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1471,7 +1475,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21826cd4-b0f4-4cf4-a7fc-5b28a255566b")
+		(uuid "3b448839-d032-411d-b5d0-74a2deb9ccdd")
 		(property "Reference" "R5"
 			(at 104.14 63.5 90)
 			(effects
@@ -1532,76 +1536,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4283da81-4825-4db1-910f-bebb875a8898")
-		(property "Reference" "C7"
-			(at 196.85 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 196.85 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.0052 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eec105ae-ed24-4c12-ba89-5a49eb237162")
-		)
-		(pin "2"
-			(uuid "97ece1a9-f5f7-4e8d-8bcb-7d130150feb6")
-		)
-		(instances
-			(project "esp32-didatic-kit"
-				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 88.9 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1609,7 +1543,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d27ce1f-2aad-4659-9198-89af37c19a51")
+		(uuid "484a4f1b-f787-4b47-b248-8697ed6d7132")
 		(property "Reference" "C6"
 			(at 92.71 82.5499 0)
 			(effects
@@ -1661,72 +1595,10 @@
 		(pin "2"
 			(uuid "8dd35793-dc58-4b14-b3a2-af468785dbd0")
 		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57dbeda4-98a7-4029-8122-a669cd707a9d")
-		(property "Reference" "C9"
-			(at 162.56 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 162.56 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.7152 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00894fa0-7960-4bf4-ab24-a6789786637a")
-		)
-		(pin "2"
-			(uuid "f4673d4f-034f-4274-a6a6-b5242b95e8f9")
-		)
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
-					(reference "C9")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1803,17 +1675,115 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 180.34 83.82 0)
+		(lib_id "ICs:ST1S10PHR")
+		(at 135.89 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "694b9857-c1fc-4115-b297-842a8e690205")
-		(property "Reference" "C8"
-			(at 184.15 82.5499 0)
+		(uuid "611fdbb3-4810-4e33-bc4a-dc81e26bcbf9")
+		(property "Reference" "U2"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST1S10PHR"
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_STMicroelectronics_ST1S10PHR_ST1S10PHR_C11175.html"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11175"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "553f0b4f-1896-49df-8e22-5395ac8ee49a")
+		)
+		(pin "3"
+			(uuid "ae866c31-5789-4663-85c6-5021a519069a")
+		)
+		(pin "5"
+			(uuid "998bfabd-be8b-4c15-bb7e-920e6ce5cb63")
+		)
+		(pin "1"
+			(uuid "6fe90de2-e955-44ea-9769-c9ec69e07fae")
+		)
+		(pin "2"
+			(uuid "2a147c48-45b6-42ae-9113-e30234bc69cf")
+		)
+		(pin "8"
+			(uuid "389698d8-3a72-4c2e-8005-d1733b99031d")
+		)
+		(pin "7"
+			(uuid "36261d87-02d1-4509-aa21-518e37ac5138")
+		)
+		(pin "9"
+			(uuid "d460f7dd-8075-4e8c-b3b7-0661c21896e7")
+		)
+		(pin "6"
+			(uuid "5af84ef1-fe30-4e5e-91dd-ca7b2c720f68")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f2b80b-74d0-40dc-bcb9-13a79232ad64")
+		(property "Reference" "C7"
+			(at 196.85 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1792,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 184.15 85.0899 0)
+			(at 196.85 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.3052 87.63 0)
+			(at 194.0052 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 83.82 0)
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1819,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 180.34 83.82 0)
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,85 +1828,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba5b1f9a-3e2d-4948-8eb7-1940ea215bb6")
+			(uuid "eec105ae-ed24-4c12-ba89-5a49eb237162")
 		)
 		(pin "2"
-			(uuid "0b4a4186-d25a-4852-b2bb-134247ece743")
+			(uuid "97ece1a9-f5f7-4e8d-8bcb-7d130150feb6")
 		)
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 215.9 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "770cdf20-305b-467d-876f-7cf057db2e1e")
-		(property "Reference" "R6"
-			(at 218.44 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 218.44 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.678 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 215.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1c1d7728-73fd-4c63-be53-192c0af35a7e")
-		)
-		(pin "1"
-			(uuid "06a303df-9eb2-4e9e-bf63-7481c817f291")
-		)
-		(instances
-			(project "esp32-didatic-kit"
-				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
-					(reference "R6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1951,7 +1851,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a3d874d-0e89-4814-9611-f3135b07b241")
+		(uuid "d29c2d59-51a8-4fb6-941e-8df3f576bddd")
 		(property "Reference" "L2"
 			(at 172.72 74.93 0)
 			(effects
@@ -2019,35 +1919,27 @@
 		(pin "1"
 			(uuid "4df03da0-8b0d-45c2-b5a3-7da81f99f949")
 		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
-		(lib_id "ICs:ST1S10PHR")
-		(at 135.89 69.85 0)
+		(lib_id "power:GND")
+		(at 80.01 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93bc6d4d-7483-4669-ac4b-3d8bc5fbf404")
-		(property "Reference" "U2"
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ST1S10PHR"
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ICs:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
-			(at 135.89 82.55 0)
+		(uuid "d411b0ab-891a-4910-ab85-10c2c3e33d30")
+		(property "Reference" "#PWR03"
+			(at 80.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,8 +1947,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_STMicroelectronics_ST1S10PHR_ST1S10PHR_C11175.html"
-			(at 135.89 85.09 0)
+		(property "Value" "GND"
+			(at 80.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,8 +1964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 69.85 0)
+		(property "Datasheet" ""
+			(at 80.01 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,41 +1973,165 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C11175"
-			(at 135.89 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "553f0b4f-1896-49df-8e22-5395ac8ee49a")
-		)
-		(pin "3"
-			(uuid "ae866c31-5789-4663-85c6-5021a519069a")
-		)
-		(pin "5"
-			(uuid "998bfabd-be8b-4c15-bb7e-920e6ce5cb63")
 		)
 		(pin "1"
-			(uuid "6fe90de2-e955-44ea-9769-c9ec69e07fae")
+			(uuid "67a2cd50-471c-462b-977e-10a4e2a1009b")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb00fe77-4c56-4f91-a18b-f537db298ef2")
+		(property "Reference" "R8"
+			(at 218.44 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20k"
+			(at 218.44 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.678 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "2a147c48-45b6-42ae-9113-e30234bc69cf")
+			(uuid "515417a2-ace9-4759-817e-49aad2fcbef3")
 		)
-		(pin "8"
-			(uuid "389698d8-3a72-4c2e-8005-d1733b99031d")
+		(pin "1"
+			(uuid "773b5d07-1d63-4ef1-a28d-d045f7ddbf5b")
 		)
-		(pin "7"
-			(uuid "36261d87-02d1-4509-aa21-518e37ac5138")
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
-		(pin "9"
-			(uuid "d460f7dd-8075-4e8c-b3b7-0661c21896e7")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6817960-91a3-4459-863a-1773cc171854")
+		(property "Reference" "C9"
+			(at 162.56 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
-		(pin "6"
-			(uuid "5af84ef1-fe30-4e5e-91dd-ca7b2c720f68")
+		(property "Value" "22uF"
+			(at 162.56 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.7152 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00894fa0-7960-4bf4-ab24-a6789786637a")
+		)
+		(pin "2"
+			(uuid "f4673d4f-034f-4274-a6a6-b5242b95e8f9")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/0c325b1a-1079-4d2a-be2c-6c0048b723dc"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

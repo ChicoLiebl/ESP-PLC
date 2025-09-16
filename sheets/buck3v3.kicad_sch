@@ -2062,7 +2062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
 			(at 135.89 82.55 0)
 			(effects
 				(font

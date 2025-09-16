@@ -1365,7 +1365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Passive:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 95.25 72.39 0)
 			(effects
 				(font
