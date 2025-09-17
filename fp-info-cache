@@ -1,4 +1,4 @@
-26135693041865896
+26142725411860822
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55173,6 +55173,13 @@ connector Wuerth WR-WTB vertical
 0
 10
 10
+Connectors
+SW-SMD_16P-L20.2-W6.0-P2.54-LS9.8
+
+
+0
+16
+16
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -60900,6 +60907,20 @@ DHVQFN-16_L3.5-W2.5-P0.50-BL-EP
 17
 17
 ICs
+MODULE_ESP32-WROVER-B
+
+
+0
+59
+59
+ICs
+PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL
+
+
+0
+8
+8
+ICs
 SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 
 
@@ -60913,6 +60934,13 @@ SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
 0
 13
 9
+ICs
+WIFI-SMD_ESP32-WROVER-E-N8R2
+
+
+0
+47
+39
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height

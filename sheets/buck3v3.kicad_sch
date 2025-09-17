@@ -1476,7 +1476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a29f3a4-5866-4351-a256-92ca148bcd72")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 80.01 111.76 0)
 			(effects
 				(font
@@ -1526,7 +1526,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/7b6a96e9-073a-48b5-9493-a48e10bd502c"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1542,7 +1542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21826cd4-b0f4-4cf4-a7fc-5b28a255566b")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 104.14 63.5 90)
 			(effects
 				(font
@@ -1594,7 +1594,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/7b6a96e9-073a-48b5-9493-a48e10bd502c"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)

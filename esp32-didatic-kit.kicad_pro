@@ -453,7 +453,9 @@
     "pinned_symbol_libs": [
       "Switch",
       "Passive",
-      "Transistors"
+      "Transistors",
+      "Connectors",
+      "ICs"
     ]
   },
   "meta": {
@@ -640,7 +642,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "plt/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -683,6 +685,146 @@
     [
       "aea191e3-b773-40f6-a9d4-aec24cc2a210",
       "Voltage Reference"
+    ],
+    [
+      "a3bd28a7-449e-4ddf-aebc-daf85f2069ea",
+      "MCU"
+    ],
+    [
+      "9698fb71-dcf7-48f9-beeb-6e6a219382b5",
+      "IO"
+    ],
+    [
+      "8379860e-8981-4170-acaa-d64afdf257d5",
+      "IO PortA"
+    ],
+    [
+      "a4f3ba16-b2d9-497e-ba6f-d477f263c557",
+      "Isolated Input"
+    ],
+    [
+      "cd38f3bb-e7eb-4616-8170-a52eb3468a2f",
+      "Inputs"
+    ],
+    [
+      "c9f9f763-1071-4807-a4d8-220280709c32",
+      "Isolated Input2"
+    ],
+    [
+      "b123e66d-43bf-463f-b2bf-e0eaefebf0e7",
+      "Isolated Input1"
+    ],
+    [
+      "ca5483d9-cdf6-49dc-aa7e-913edb83fc75",
+      "Isolated Input3"
+    ],
+    [
+      "41fdd37b-ce56-4a82-8ffe-d060032d3308",
+      "Isolated Input4"
+    ],
+    [
+      "fa14fe05-b455-4531-97b0-fb50abb69d45",
+      "Isolated Input5"
+    ],
+    [
+      "e18b714e-d211-478f-b51a-5779354abaef",
+      "Isolated Input6"
+    ],
+    [
+      "61acc2ac-d07e-47ca-bb5e-278ee02b2811",
+      "Isolated Input7"
+    ],
+    [
+      "ecc54a16-e833-4b48-9402-1bdf868c1d08",
+      "IO PortB"
+    ],
+    [
+      "6574d7d9-6af9-409e-b5ea-1bf318741d30",
+      "IO PortC"
+    ],
+    [
+      "5496c104-71a9-407f-b983-09bd756c4ea4",
+      "IO PortD"
+    ],
+    [
+      "64b3e107-dc0d-4522-a31a-909ae85593e6",
+      "Output PortC"
+    ],
+    [
+      "e2f25723-b80d-46a5-ac52-20bfdc9c58b3",
+      "Relay Circuit"
+    ],
+    [
+      "4848d407-6ece-48b5-bcc3-86aeb12c60f2",
+      "Relay Circuit1"
+    ],
+    [
+      "3099a4fa-35f9-46b9-8842-61c01b4f03d6",
+      "Relay Circuit2"
+    ],
+    [
+      "0567a666-91a6-4027-be63-38f4259298f4",
+      "Relay Circuit3"
+    ],
+    [
+      "19c7467c-bc4d-4027-8ee9-e10e3458758e",
+      "Relay Circuit4"
+    ],
+    [
+      "9600e7ef-f5a0-431c-b574-75f67d9eb64d",
+      "Relay Circuit5"
+    ],
+    [
+      "baee5459-442f-473c-880e-f65dd34afe33",
+      "Relay Circuit6"
+    ],
+    [
+      "6356993e-6d1b-4c9d-82d0-3a5cd8eac021",
+      "Relay Circuit7"
+    ],
+    [
+      "2bef6c2e-74ff-4829-8d82-52af180a390c",
+      "Output PortD"
+    ],
+    [
+      "e2f25723-b80d-46a5-ac52-20bfdc9c58b3",
+      "Relay Circuit"
+    ],
+    [
+      "4848d407-6ece-48b5-bcc3-86aeb12c60f2",
+      "Relay Circuit1"
+    ],
+    [
+      "19c7467c-bc4d-4027-8ee9-e10e3458758e",
+      "Relay Circuit4"
+    ],
+    [
+      "9600e7ef-f5a0-431c-b574-75f67d9eb64d",
+      "Relay Circuit5"
+    ],
+    [
+      "3099a4fa-35f9-46b9-8842-61c01b4f03d6",
+      "Relay Circuit2"
+    ],
+    [
+      "0567a666-91a6-4027-be63-38f4259298f4",
+      "Relay Circuit3"
+    ],
+    [
+      "baee5459-442f-473c-880e-f65dd34afe33",
+      "Relay Circuit6"
+    ],
+    [
+      "6356993e-6d1b-4c9d-82d0-3a5cd8eac021",
+      "Relay Circuit7"
+    ],
+    [
+      "10f00d49-e652-449c-9bf9-231ea615e92b",
+      "Port Setup"
+    ],
+    [
+      "ee6d5bfe-64f6-446c-ab84-257e42489673",
+      "Port Setup1"
     ]
   ],
   "text_variables": {}

@@ -1929,7 +1929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "942b4619-11ee-4ce1-999a-c53692f62e5a")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 166.37 87.6299 0)
 			(effects
 				(font
@@ -1983,7 +1983,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/a4fbb455-48dc-4e33-aa46-f1d410f99810"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b4555ad-4d07-4605-b60e-52d96fcacd93")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 170.18 66.04 90)
 			(effects
 				(font
@@ -2051,7 +2051,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/a4fbb455-48dc-4e33-aa46-f1d410f99810"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2155,7 +2155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0686ca9-15cf-41d0-a797-69c9fc051dec")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR09"
 			(at 66.04 116.84 0)
 			(effects
 				(font
@@ -2205,7 +2205,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/a4fbb455-48dc-4e33-aa46-f1d410f99810"
-					(reference "#PWR02")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3085530-1622-41bf-9c1a-c43847cab08f")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 180.34 66.7097 90)
 			(effects
 				(font
@@ -2273,7 +2273,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5/a4fbb455-48dc-4e33-aa46-f1d410f99810"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)

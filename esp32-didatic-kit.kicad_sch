@@ -5,6 +5,84 @@
 	(uuid "f57920a5-fee7-4fe5-a133-e8b36941a5a6")
 	(paper "A4")
 	(lib_symbols)
+	(bus_entry
+		(at 218.44 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55659ca6-5ce7-4d79-a103-e37b3732fc68")
+	)
+	(bus_entry
+		(at 218.44 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56ce184-962c-4232-9410-61d45ab7803d")
+	)
+	(wire
+		(pts
+			(xy 220.98 86.36) (xy 232.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2684f03a-3f06-403f-b1a2-23ea706e1092")
+	)
+	(bus
+		(pts
+			(xy 162.56 81.28) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bdc1f1-079c-4ed7-bf61-f745c7417a5a")
+	)
+	(bus
+		(pts
+			(xy 218.44 81.28) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9730b4bc-c14f-4d03-b190-4376802eb9a2")
+	)
+	(wire
+		(pts
+			(xy 220.98 83.82) (xy 232.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be50a1ce-6476-450c-8ae3-4b2710b0359b")
+	)
+	(label "I2C0.SCL"
+		(at 222.25 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16b93066-b6cb-436e-b063-536d17fd2767")
+	)
+	(label "I2C0.SDA"
+		(at 222.25 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d000d1ed-0f2f-4ba8-bf27-8e63824cc0a3")
+	)
 	(sheet
 		(at 32.385 25.4)
 		(size 44.45 36.195)
@@ -123,6 +201,210 @@
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 78.74)
+		(size 38.1 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9698fb71-dcf7-48f9-beeb-6e6a219382b5")
+		(property "Sheetname" "IO"
+			(at 232.41 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/io.kicad_sch"
+			(at 232.41 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IO_INTR[0..7]" output
+			(at 270.51 86.36 0)
+			(uuid "4a81e9d4-d6c4-43c6-a686-0fa6f14e3331")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IO_SCL" input
+			(at 232.41 83.82 180)
+			(uuid "d91ecd1c-4386-4525-b878-f13abd807d53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_SDA" bidirectional
+			(at 232.41 86.36 180)
+			(uuid "6decd405-61e3-4004-a706-fa284d352171")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 76.2)
+		(size 41.91 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3bd28a7-449e-4ddf-aebc-daf85f2069ea")
+		(property "Sheetname" "MCU"
+			(at 120.65 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/mcu.kicad_sch"
+			(at 120.65 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO[1..33]" bidirectional
+			(at 162.56 109.22 0)
+			(uuid "6389f9de-217e-4b06-a27f-d375237afeff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPI{34,35,36,39}" input
+			(at 120.65 109.22 180)
+			(uuid "373920c2-b735-4ce3-aa7a-286280d600c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG{TMS,TDI,TCK,TDO}" bidirectional
+			(at 120.65 87.63 180)
+			(uuid "ec24ce8e-051f-46f5-a288-43af2a49a670")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERIAL0{TX,RX,IO0,EN}" bidirectional
+			(at 120.65 81.28 180)
+			(uuid "cff6b19f-85f0-41e0-aa1a-5a6e36702807")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN{TX,RX}" bidirectional
+			(at 162.56 104.14 0)
+			(uuid "85cffaf3-2b3e-4fb3-a3a6-4c743619a1e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0{SCL,SDA}" bidirectional
+			(at 162.56 81.28 0)
+			(uuid "81ad8b19-3fcd-4b59-a164-d17bb4985ffe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1{SCL,SDA}" bidirectional
+			(at 162.56 85.09 0)
+			(uuid "7c4ecf96-04af-46f4-8ffe-e8265ccef79d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI0{SCK,MISO,MOSI,CS}" bidirectional
+			(at 162.56 92.71 0)
+			(uuid "6b28edb4-06ad-40a4-a843-58e24a0a3350")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1{SCK,MISO,MOSI,CS[0..1]}" bidirectional
+			(at 162.56 96.52 0)
+			(uuid "fb06f064-5993-4930-9a2b-aeb63e3bee7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6"
+					(page "9")
 				)
 			)
 		)

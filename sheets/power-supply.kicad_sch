@@ -2071,7 +2071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "182064ec-d33f-44c3-a5e7-aed383c8d3c3")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 93.98 36.8299 90)
 			(effects
 				(font
@@ -2143,7 +2143,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2159,7 +2159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e8b0118-e291-4813-b17a-fb502dd037f0")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 229.87 54.61 0)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2225,7 +2225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eac4fa3-883c-4fc5-a1ca-6be1171d42da")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 123.19 118.11 0)
 			(effects
 				(font
@@ -2275,7 +2275,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2291,7 +2291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e6d0371-8c7c-4bf1-9d51-0bd44ea71423")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR05"
 			(at 228.6 81.28 0)
 			(effects
 				(font
@@ -2341,7 +2341,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "#PWR010")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2425,7 +2425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51c06864-3f57-436d-b19b-f25576b03667")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 81.28 52.0699 90)
 			(effects
 				(font
@@ -2497,7 +2497,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2513,7 +2513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931c018d-e01e-4322-962f-03707e862bc1")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 229.87 35.56 0)
 			(effects
 				(font
@@ -2563,7 +2563,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2667,7 +2667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b962fd85-5a17-488d-9873-a90ce331e2ea")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 173.99 118.11 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2804,7 +2804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4fd379a-b059-45d9-8e6d-c222bfe3286c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR08"
 			(at 233.68 120.65 0)
 			(effects
 				(font
@@ -2854,7 +2854,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "#PWR018")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2870,7 +2870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d242af06-9822-446b-9750-722d5d5d6207")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -2920,7 +2920,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
