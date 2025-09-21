@@ -5,6 +5,196 @@
 	(uuid "9a6167ef-6b44-492a-a2d8-35ba0bfe5faf")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_Array:ULN2803A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -803,15 +993,6 @@
 		(uuid "14ff1fe1-a29d-468a-a124-1f90c3646326")
 	)
 	(bus_entry
-		(at 39.37 147.32)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168e4801-4426-4744-aaa4-4bdb9e08ad93")
-	)
-	(bus_entry
 		(at 25.4 34.29)
 		(size 2.54 2.54)
 		(stroke
@@ -875,24 +1056,6 @@
 		(uuid "45e4e232-ba88-49a0-9c77-c177b8de5afb")
 	)
 	(bus_entry
-		(at 35.56 142.24)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e95aea9-cf9e-4a5f-8c3f-8c0bd112f611")
-	)
-	(bus_entry
-		(at 146.05 142.24)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eb17740-7eec-433d-9a26-3e43591b7b3f")
-	)
-	(bus_entry
 		(at 25.4 29.21)
 		(size 2.54 2.54)
 		(stroke
@@ -900,15 +1063,6 @@
 			(type default)
 		)
 		(uuid "6cf071ef-560c-4ea9-bdb8-c29a86175dd7")
-	)
-	(bus_entry
-		(at 175.26 147.32)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d906c40-9b7e-48d8-8862-efed1988e8dc")
 	)
 	(bus_entry
 		(at 223.52 87.63)
@@ -920,15 +1074,6 @@
 		(uuid "70d56dde-f494-417d-91d5-01905505a593")
 	)
 	(bus_entry
-		(at 228.6 147.32)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74997b0d-1822-4f04-9da6-7abce7efdfce")
-	)
-	(bus_entry
 		(at 251.46 93.98)
 		(size -2.54 2.54)
 		(stroke
@@ -936,15 +1081,6 @@
 			(type default)
 		)
 		(uuid "761a4d2a-6014-4b64-9e81-b9e442baf9df")
-	)
-	(bus_entry
-		(at 91.44 142.24)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "762b4253-6b33-4e64-a15d-31451156f545")
 	)
 	(bus_entry
 		(at 63.5 39.37)
@@ -974,15 +1110,6 @@
 		(uuid "897226e9-85af-404a-9a6f-1661d1f0482a")
 	)
 	(bus_entry
-		(at 66.04 142.24)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f148a53-cc88-43c9-8e18-00be9436db00")
-	)
-	(bus_entry
 		(at 25.4 39.37)
 		(size 2.54 2.54)
 		(stroke
@@ -992,13 +1119,13 @@
 		(uuid "90e7b8e0-5b37-41d8-a8e2-1d00f664bd97")
 	)
 	(bus_entry
-		(at 69.85 147.32)
-		(size -2.54 -2.54)
+		(at 252.73 93.98)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91f31ccb-8a2f-4050-960b-f069a2e7d581")
+		(uuid "9114e89c-cdad-495d-b7a1-e56792263dcd")
 	)
 	(bus_entry
 		(at 63.5 46.99)
@@ -1008,15 +1135,6 @@
 			(type default)
 		)
 		(uuid "96e67cb4-2615-46c8-b6b9-a98ac1fe8ef9")
-	)
-	(bus_entry
-		(at 96.52 147.32)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fad27ed-ea14-4e65-91e5-f24ecc7b93e8")
 	)
 	(bus_entry
 		(at 63.5 31.75)
@@ -1044,15 +1162,6 @@
 			(type default)
 		)
 		(uuid "bcc1e208-07b7-410a-a626-08feeb0a51cd")
-	)
-	(bus_entry
-		(at 223.52 142.24)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c29a47d9-1352-4c74-b10c-782dc6076dc7")
 	)
 	(bus_entry
 		(at 25.4 41.91)
@@ -1100,15 +1209,6 @@
 		(uuid "d03d45db-3e71-462f-9ef3-eab6fc6fe430")
 	)
 	(bus_entry
-		(at 149.86 147.32)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6596f30-7394-496b-b3a1-bc41c3d24e45")
-	)
-	(bus_entry
 		(at 25.4 46.99)
 		(size 2.54 2.54)
 		(stroke
@@ -1116,24 +1216,6 @@
 			(type default)
 		)
 		(uuid "d7553ae8-2893-462a-a6aa-80d4a6b2bfc0")
-	)
-	(bus_entry
-		(at 123.19 147.32)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd047a88-657b-4a8a-bbbf-14166730f592")
-	)
-	(bus_entry
-		(at 119.38 142.24)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb33cf6-d409-4894-8022-43823de3fcd2")
 	)
 	(bus_entry
 		(at 118.11 93.98)
@@ -1145,31 +1227,13 @@
 		(uuid "de2d410c-b554-4d31-9d43-daee68e53f85")
 	)
 	(bus_entry
-		(at 171.45 142.24)
-		(size -2.54 -2.54)
+		(at 257.81 93.98)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1d1a77f-5583-426e-bfbb-8eb372034ae0")
-	)
-	(bus_entry
-		(at 201.93 147.32)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3abf4ec-74f7-4b85-b2f3-0f1010cd70a1")
-	)
-	(bus_entry
-		(at 198.12 142.24)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e78b1529-4562-4064-b9ab-e974fa343e38")
+		(uuid "e8b81633-61f3-4526-9637-76878332cb49")
 	)
 	(bus_entry
 		(at 63.5 44.45)
@@ -1219,16 +1283,6 @@
 		)
 		(uuid "0503639b-c936-44c8-941b-7b02ea102325")
 	)
-	(bus
-		(pts
-			(xy 171.45 142.24) (xy 146.05 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05a3725a-85f4-4d6c-98db-571112a7baae")
-	)
 	(wire
 		(pts
 			(xy 27.94 34.29) (xy 33.02 34.29)
@@ -1241,6 +1295,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 80.01) (xy 267.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090f552c-a237-4b0d-8a6a-409d68133fd7")
+	)
+	(wire
+		(pts
 			(xy 142.24 106.68) (xy 138.43 106.68)
 		)
 		(stroke
@@ -1248,6 +1312,16 @@
 			(type default)
 		)
 		(uuid "09422927-8730-4912-b764-4b6152ebcbbb")
+	)
+	(wire
+		(pts
+			(xy 260.35 91.44) (xy 260.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c81fe26-bc19-4dab-8aba-e3ebed74bffe")
 	)
 	(bus
 		(pts
@@ -1291,23 +1365,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 139.7) (xy 168.91 114.3)
+			(xy 170.18 144.78) (xy 170.18 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a46b3a1-b81c-4706-bbea-64d2e03ba473")
-	)
-	(bus
-		(pts
-			(xy 39.37 147.32) (xy 69.85 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8cf4b6-4efe-4ef7-a95a-aa6899e81a56")
 	)
 	(wire
 		(pts
@@ -1351,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 69.85 114.3)
+			(xy 64.77 114.3) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1381,7 +1445,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 93.98) (xy 266.7 93.98)
+			(xy 251.46 93.98) (xy 252.73 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1439,16 +1503,6 @@
 		)
 		(uuid "26a946cc-bed7-459c-87fb-899d36024552")
 	)
-	(bus
-		(pts
-			(xy 91.44 142.24) (xy 66.04 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277c3ac3-3493-48a9-bdeb-6c2f5996f32e")
-	)
 	(wire
 		(pts
 			(xy 248.92 106.68) (xy 245.11 106.68)
@@ -1458,6 +1512,16 @@
 			(type default)
 		)
 		(uuid "2a593724-5c9a-4980-a44c-24303e5c8bbe")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 229.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b101045-3ebb-4400-9111-ccf1d6337540")
 	)
 	(bus
 		(pts
@@ -1491,6 +1555,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 77.47) (xy 267.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc246a1-c2fc-44b1-9e03-690e2825fc4d")
+	)
+	(wire
+		(pts
 			(xy 27.94 36.83) (xy 33.02 36.83)
 		)
 		(stroke
@@ -1521,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 139.7) (xy 143.51 114.3)
+			(xy 144.78 144.78) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1568,26 +1642,6 @@
 			(type default)
 		)
 		(uuid "451aee44-33d2-41b5-87c8-65a839907cab")
-	)
-	(bus
-		(pts
-			(xy 123.19 147.32) (xy 149.86 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454c90d3-a265-4719-89ce-7f7a79f43c9d")
-	)
-	(bus
-		(pts
-			(xy 223.52 142.24) (xy 198.12 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b5af23-c565-49ef-a9f5-d1b1870570f4")
 	)
 	(wire
 		(pts
@@ -1669,16 +1723,6 @@
 		)
 		(uuid "5853bb68-564d-4402-9f9a-f2c9c7166dc4")
 	)
-	(bus
-		(pts
-			(xy 201.93 147.32) (xy 228.6 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ea15d9-fbde-4b79-9ecf-af54f153af50")
-	)
 	(wire
 		(pts
 			(xy 115.57 96.52) (xy 115.57 106.68)
@@ -1701,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 139.7) (xy 88.9 114.3)
+			(xy 91.44 144.78) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1728,16 +1772,6 @@
 			(type default)
 		)
 		(uuid "5f817140-dac6-4c37-b8b2-fd2f6412afa2")
-	)
-	(wire
-		(pts
-			(xy 220.98 114.3) (xy 229.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "609bf4d9-bb2a-431a-a8e5-0ca9a09874b7")
 	)
 	(wire
 		(pts
@@ -1789,16 +1823,6 @@
 		)
 		(uuid "6c136f86-672d-4136-8b18-c43c8150ebeb")
 	)
-	(bus
-		(pts
-			(xy 119.38 142.24) (xy 91.44 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd41cfe-0e76-4232-8b94-ff0612b585d4")
-	)
 	(wire
 		(pts
 			(xy 142.24 96.52) (xy 142.24 106.68)
@@ -1821,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 114.3) (xy 43.18 114.3)
+			(xy 34.29 114.3) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 176.53 114.3)
+			(xy 170.18 114.3) (xy 176.53 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1961,23 +1985,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 114.3) (xy 149.86 114.3)
+			(xy 144.78 114.3) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89d5a2c0-5607-4835-8cdb-72ab035923f0")
-	)
-	(bus
-		(pts
-			(xy 96.52 147.32) (xy 123.19 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bbbeb36-a1a1-4f39-be2a-51d11e5531e0")
 	)
 	(wire
 		(pts
@@ -1988,26 +2002,6 @@
 			(type default)
 		)
 		(uuid "8c8cccd4-e3e8-4d1f-940d-9bac6b4e864a")
-	)
-	(bus
-		(pts
-			(xy 66.04 142.24) (xy 35.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc7db00-ba64-4c7c-99f5-c8f6bb12b111")
-	)
-	(bus
-		(pts
-			(xy 266.7 142.24) (xy 223.52 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93d5987a-1728-4f3a-afa3-7a8002508fca")
 	)
 	(wire
 		(pts
@@ -2039,9 +2033,19 @@
 		)
 		(uuid "9d1dc00d-75c0-4c9b-97f2-55f912c3aed8")
 	)
+	(bus
+		(pts
+			(xy 252.73 93.98) (xy 257.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4340b8-60fc-47a4-8652-fce22f055f03")
+	)
 	(wire
 		(pts
-			(xy 195.58 139.7) (xy 195.58 114.3)
+			(xy 196.85 144.78) (xy 196.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 139.7) (xy 63.5 114.3)
+			(xy 64.77 144.78) (xy 64.77 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 139.7) (xy 33.02 114.3)
+			(xy 34.29 114.3) (xy 34.29 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 114.3) (xy 203.2 114.3)
+			(xy 196.85 114.3) (xy 203.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2139,15 +2143,15 @@
 		)
 		(uuid "ae66ba0f-4ba1-4d95-bbae-31713962b42b")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 198.12 142.24) (xy 171.45 142.24)
+			(xy 118.11 114.3) (xy 118.11 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aef25a95-218b-4ef8-b7af-c1272108f380")
+		(uuid "b03cb465-6a15-45f8-b8d1-cd06e5c4476f")
 	)
 	(bus
 		(pts
@@ -2161,13 +2165,23 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 147.32) (xy 201.93 147.32)
+			(xy 257.81 93.98) (xy 266.7 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3805649-71a9-4ef4-b74c-fdf8fc6405ee")
+		(uuid "b169dcea-eca4-4fab-82dc-e5ee88b820d1")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 223.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1db32fa-5bff-4be2-b670-10f9aff58b15")
 	)
 	(bus
 		(pts
@@ -2201,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 123.19 114.3)
+			(xy 118.11 114.3) (xy 123.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2218,26 +2232,6 @@
 			(type default)
 		)
 		(uuid "c18ca0c8-2712-4121-b272-0527dfddbf34")
-	)
-	(wire
-		(pts
-			(xy 220.98 139.7) (xy 220.98 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3e7f5fc-e1b5-448f-b4ef-c1549412ceb0")
-	)
-	(bus
-		(pts
-			(xy 146.05 142.24) (xy 119.38 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c47147f2-6935-488f-99c6-0005960e4787")
 	)
 	(wire
 		(pts
@@ -2309,16 +2303,6 @@
 		)
 		(uuid "d58924a3-dfb2-40fd-85b6-cde7d57eff53")
 	)
-	(bus
-		(pts
-			(xy 69.85 147.32) (xy 96.52 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6798f58-7b4b-4208-bc20-e76162af7e00")
-	)
 	(wire
 		(pts
 			(xy 173.99 106.68) (xy 176.53 106.68)
@@ -2329,15 +2313,15 @@
 		)
 		(uuid "d7b0a113-6d9b-4ea5-bf20-afd720e13533")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 149.86 147.32) (xy 175.26 147.32)
+			(xy 255.27 91.44) (xy 255.27 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7da3c0d-7bec-43e4-a1fe-6dfc21f8cdba")
+		(uuid "da937b35-1471-40a9-88bc-ef61e855de13")
 	)
 	(wire
 		(pts
@@ -2351,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 96.52 114.3)
+			(xy 91.44 114.3) (xy 96.52 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2459,26 +2443,6 @@
 		)
 		(uuid "f9e40ff5-baa2-4e6f-a23f-6bde3dfa7743")
 	)
-	(wire
-		(pts
-			(xy 116.84 139.7) (xy 116.84 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc6c2a34-4fa4-4a4f-ae7b-44e5572ef437")
-	)
-	(bus
-		(pts
-			(xy 228.6 147.32) (xy 266.7 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7c00bf-68e3-46c9-9fd0-32da101d8bff")
-	)
 	(label "OUT0"
 		(at 27.94 31.75 0)
 		(effects
@@ -2500,7 +2464,7 @@
 		(uuid "0cd69d54-4e9a-4163-9d02-3fc97b490e91")
 	)
 	(label "NC0"
-		(at 33.02 116.84 0)
+		(at 34.29 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2520,7 +2484,7 @@
 		(uuid "1d1d7a11-1d9a-4695-8609-c60eca8a28c5")
 	)
 	(label "NC2"
-		(at 88.9 114.3 0)
+		(at 91.44 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,6 +2492,16 @@
 			(justify left bottom)
 		)
 		(uuid "2100b4b0-386e-49ae-93c6-365a7ec94fde")
+	)
+	(label "COMM0"
+		(at 260.35 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "219ca641-df02-4dfa-a5d0-3ba12ddca693")
 	)
 	(label "REL5"
 		(at 173.99 106.68 0)
@@ -2580,7 +2554,7 @@
 		(uuid "40fedf88-7603-4417-92c7-d7a65c38df11")
 	)
 	(label "NC7"
-		(at 222.25 114.3 0)
+		(at 223.52 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,6 +2632,16 @@
 			(justify left bottom)
 		)
 		(uuid "64b2c7b1-9a80-4c1d-b55a-113730c8a810")
+	)
+	(label "COMM[0..1]"
+		(at 266.7 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6536b7aa-f147-4798-aa76-a57f0c90bd2a")
 	)
 	(label "REL4"
 		(at 149.86 106.68 0)
@@ -2829,6 +2813,16 @@
 		)
 		(uuid "b350e0af-d196-4b45-a5ed-6e2f6683fa7f")
 	)
+	(label "COMM1"
+		(at 255.27 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9cb24d0-f3d6-413c-ba43-29cde8aad354")
+	)
 	(label "COMM0"
 		(at 85.09 107.95 0)
 		(effects
@@ -2870,7 +2864,7 @@
 		(uuid "c0cdc141-d36e-4824-858a-14b8ac042350")
 	)
 	(label "NC1"
-		(at 64.9654 114.5931 0)
+		(at 66.04 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2920,7 +2914,7 @@
 		(uuid "ee422800-e0d7-4bbc-b604-6b6cb9ef2366")
 	)
 	(label "NO1"
-		(at 69.85 120.65 0)
+		(at 67.31 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2959,39 +2953,6 @@
 		)
 		(uuid "ffe2b394-b0e5-4736-9838-26ebbc8e5fa7")
 	)
-	(hierarchical_label "NO[0..7]"
-		(shape output)
-		(at 266.7 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1fd8edfe-4c60-41ae-be08-b4949e9b44ff")
-	)
-	(hierarchical_label "NC[0..7]"
-		(shape output)
-		(at 266.7 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55d075f7-0770-4645-bae5-f1df761d46cf")
-	)
-	(hierarchical_label "COMM[0..1]"
-		(shape output)
-		(at 266.7 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c6d02ce-535d-4772-b41b-a27b8835042e")
-	)
 	(hierarchical_label "OUT[0..7]"
 		(shape input)
 		(at 25.4 16.51 180)
@@ -3004,6 +2965,402 @@
 		(uuid "bd21536c-c1e7-42e3-839f-18483c6c93f3")
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 172.72 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01a8847c-2ff2-4372-b46a-775479468ebe")
+		(property "Reference" "TB23"
+			(at 169.672 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 172.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 172.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 172.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 172.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 172.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec37eeee-68f7-4dc6-8544-3bf8d153d67d")
+		)
+		(pin "1"
+			(uuid "7d79a2b9-8bea-4d39-9ff3-4817609458b8")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB24")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 226.06 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "194dff34-16af-4556-9d32-710080828daf")
+		(property "Reference" "TB27"
+			(at 223.012 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3aeaef4d-a5c5-4bac-bff4-720d1354d50a")
+		)
+		(pin "1"
+			(uuid "381e4807-4842-48a2-b37e-34da40ffac65")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB28")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 120.65 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4578a4a9-a671-4fae-882a-659e598759f3")
+		(property "Reference" "TB19"
+			(at 117.602 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eeb6eb66-15d2-4339-bd00-f971647c41db")
+		)
+		(pin "1"
+			(uuid "7e941c0f-726a-4fb2-a48e-6962b3a844d3")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB20")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 273.05 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e463caa-bcf7-4d19-8c70-16596cf5cb9e")
+		(property "Reference" "TB31"
+			(at 276.606 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 273.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "373b8844-5e5b-444f-a48e-e234d9fa22a1")
+		)
+		(pin "1"
+			(uuid "98d698e7-eb3f-4d9e-90d8-db486b83a9b0")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB32")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.18 54.61 0)
 		(unit 1)
@@ -3013,7 +3370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63158918-9f55-404d-9370-2a5533e77fd8")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 43.18 60.96 0)
 			(effects
 				(font
@@ -3063,11 +3420,209 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
-					(reference "#PWR078")
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 199.39 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "661bfefb-013b-44c9-952d-be64b3f52721")
+		(property "Reference" "TB25"
+			(at 196.342 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e03e2de6-20d2-46a0-9961-5c1814897271")
+		)
+		(pin "1"
+			(uuid "604fc83e-28dc-49a0-b5c8-69f12888a04b")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB26")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 67.31 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8191ec85-1b62-4c23-b29b-37bc113481c8")
+		(property "Reference" "TB15"
+			(at 64.262 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db11442b-5f9a-4bef-b2e5-bc1f804f89bd")
+		)
+		(pin "1"
+			(uuid "e2458f63-95df-42b7-b00f-e8dec3d76fc1")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB16")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB15")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea68002-73ed-4abe-828c-0fefc10b89eb")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 57.15 30.48 0)
 			(effects
 				(font
@@ -3263,11 +3818,308 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
-					(reference "#PWR097")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
-					(reference "#PWR079")
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 93.98 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc6e2be6-8270-4b54-b6f0-3651354cd317")
+		(property "Reference" "TB17"
+			(at 90.932 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f1e7997-713c-412b-994a-ec122bfe247f")
+		)
+		(pin "1"
+			(uuid "953ed4c7-3bd6-4949-a5f9-f457456e8eb1")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB18")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 147.32 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8862378-0494-413a-beeb-f6e15f193226")
+		(property "Reference" "TB21"
+			(at 144.272 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 140.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c319fd3f-f590-4a92-9eae-86301fb670ba")
+		)
+		(pin "1"
+			(uuid "3b4b3244-edf9-4165-a4ef-006821c88bd3")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB22")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 36.83 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9153d99-29d7-42f0-9077-04bdf8df7882")
+		(property "Reference" "TB13"
+			(at 33.782 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 30.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b07976d-8182-4b52-b932-3aa00ddbbb35")
+		)
+		(pin "1"
+			(uuid "51776063-e31d-4aaa-878f-44472a0b079e")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/2bef6c2e-74ff-4829-8d82-52af180a390c"
+					(reference "TB14")
+					(unit 1)
+				)
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/64b3e107-dc0d-4522-a31a-909ae85593e6"
+					(reference "TB13")
 					(unit 1)
 				)
 			)

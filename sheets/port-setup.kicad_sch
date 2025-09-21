@@ -1330,7 +1330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5baaf3ad-7235-4285-9393-55385d7de4cf")
-		(property "Reference" "SW"
+		(property "Reference" "SW6"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -1423,6 +1423,10 @@
 		)
 		(instances
 			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/10f00d49-e652-449c-9bf9-231ea615e92b"
+					(reference "SW6")
+					(unit 1)
+				)
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5/ee6d5bfe-64f6-446c-ab84-257e42489673"
 					(reference "SW7")
 					(unit 1)

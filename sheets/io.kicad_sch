@@ -5,6 +5,196 @@
 	(uuid "d1e79684-0bae-4cd5-93c2-fb0828a6c67d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -236,7 +426,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS138"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -253,7 +443,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSS138"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -273,7 +463,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -283,7 +473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -292,7 +482,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -310,7 +500,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS138_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -477,7 +667,7 @@
 					)
 				)
 			)
-			(symbol "BSS138_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -525,6 +715,131 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -781,6 +1096,12 @@
 		(uuid "2ebe2088-ea21-4b73-81f2-8b18ef9188b0")
 	)
 	(junction
+		(at 254 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "381d5156-7ed0-4784-8bdc-6c9967a2ab9e")
+	)
+	(junction
 		(at 35.56 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1014,7 +1335,7 @@
 	)
 	(bus
 		(pts
-			(xy 201.93 97.79) (xy 217.17 97.79)
+			(xy 193.04 97.79) (xy 203.2 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1192,9 +1513,19 @@
 		)
 		(uuid "36fbe506-dc95-4208-902b-2e3ce4180378")
 	)
+	(wire
+		(pts
+			(xy 262.89 59.69) (xy 265.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6c211f-135d-4bcb-84e1-18695d7f2000")
+	)
 	(bus
 		(pts
-			(xy 201.93 116.84) (xy 217.17 116.84)
+			(xy 193.04 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1232,6 +1563,36 @@
 		)
 		(uuid "43536588-9192-47e4-a293-0b868d4b1a51")
 	)
+	(wire
+		(pts
+			(xy 262.89 58.42) (xy 262.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fca6ee-2031-4203-ae2f-25fe80962866")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 254 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a007350-8973-4401-bdb0-8940d3c2a986")
+	)
+	(wire
+		(pts
+			(xy 262.89 48.26) (xy 262.89 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de85f84-28a4-46b7-ade1-148450d11675")
+	)
 	(bus
 		(pts
 			(xy 95.25 82.55) (xy 113.03 82.55)
@@ -1251,6 +1612,16 @@
 			(type default)
 		)
 		(uuid "6064bf9b-8898-41bf-b749-348c652deeb5")
+	)
+	(wire
+		(pts
+			(xy 254 52.07) (xy 265.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cdf7fd-df94-46ae-aa14-e5072c61e071")
 	)
 	(wire
 		(pts
@@ -1274,7 +1645,7 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 97.79) (xy 181.61 97.79)
+			(xy 143.51 97.79) (xy 172.72 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1372,6 +1743,16 @@
 		)
 		(uuid "89569918-5f28-440b-9e52-7b031f2ba9ce")
 	)
+	(wire
+		(pts
+			(xy 254 62.23) (xy 254 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c60eb1d-f467-45fa-b92f-8e4835b0fa78")
+	)
 	(bus
 		(pts
 			(xy 101.6 57.15) (xy 101.6 73.66)
@@ -1434,6 +1815,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 62.23) (xy 265.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b2e348-dd1e-4bbb-b4cc-cab5487ac4da")
+	)
+	(wire
+		(pts
+			(xy 262.89 49.53) (xy 265.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedbbf5f-59d1-41bd-942c-cc0547fa9f84")
+	)
+	(wire
+		(pts
 			(xy 50.8 50.8) (xy 50.8 48.26)
 		)
 		(stroke
@@ -1474,7 +1875,7 @@
 	)
 	(bus
 		(pts
-			(xy 143.51 116.84) (xy 181.61 116.84)
+			(xy 143.51 116.84) (xy 172.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062e190ad")
-		(property "Reference" "R30"
+		(property "Reference" "R35"
 			(at 37.338 26.7716 0)
 			(effects
 				(font
@@ -2105,7 +2506,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "R30")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2120,7 +2521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062e194b2")
-		(property "Reference" "R31"
+		(property "Reference" "R36"
 			(at 38.608 53.4416 0)
 			(effects
 				(font
@@ -2173,7 +2574,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "R31")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2316,7 +2717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000632e085d")
-		(property "Reference" "R33"
+		(property "Reference" "R38"
 			(at 52.578 53.4416 0)
 			(effects
 				(font
@@ -2369,7 +2770,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "R33")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2384,7 +2785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000632e1060")
-		(property "Reference" "R32"
+		(property "Reference" "R37"
 			(at 51.308 26.7716 0)
 			(effects
 				(font
@@ -2437,7 +2838,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "R32")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -2452,7 +2853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064db74cd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -2501,7 +2902,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2516,7 +2917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064db7988")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 49.53 25.4 0)
 			(effects
 				(font
@@ -2565,7 +2966,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2581,7 +2982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0917ebf0-b329-4342-8f71-9d056e3dd2e7")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -2631,7 +3032,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2647,7 +3048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26ab517a-0fcc-4362-b8cd-d192e9fb276c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -2697,7 +3098,73 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR034")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 262.89 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db514d0-e1be-421c-ae2e-dbbad707f870")
+		(property "Reference" "#PWR0143"
+			(at 262.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 262.89 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52d831f1-1d34-4286-b9b7-3941ad38904e")
+		)
+		(instances
+			(project ""
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -2713,7 +3180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35901159-67d9-4169-9b93-ef3ae061c622")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -2763,7 +3230,7 @@
 		(instances
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2778,7 +3245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "377b1dde-9e18-4761-bdc0-b6c534fc096b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 77.47 119.38 0)
 			(effects
 				(font
@@ -2827,7 +3294,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2843,7 +3310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d37919b-f0e6-4a3c-980d-9b64a32509b0")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 85.09 71.12 0)
 			(effects
 				(font
@@ -2893,7 +3360,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2909,7 +3376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b2ed3c0-a627-45de-80b6-7bf60873ba8c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -2959,7 +3426,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2975,7 +3442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "626ea54e-cbe4-4c00-b500-cb2610544be6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 77.47 110.49 0)
 			(effects
 				(font
@@ -3025,7 +3492,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f0908f8-a33f-4eb7-8ad0-87b6c3b3bf6e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -3091,7 +3558,81 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR037")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 44.45 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a03cdbd-d108-4145-b518-8b873ad48eae")
+		(property "Reference" "Q5"
+			(at 44.45 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 44.45 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 42.545 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 40.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6e97c65-930c-4ff7-a0a5-4f27043ca476")
+		)
+		(pin "3"
+			(uuid "5b85ff41-654c-45cb-a193-cf6cb49f5587")
+		)
+		(pin "1"
+			(uuid "5fa83377-b296-4dea-a167-82c91c76049d")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3107,7 +3648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "868f06e5-6810-4226-b18d-a12f0a338496")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -3157,79 +3698,168 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 43.18 30.48 270)
+		(lib_id "power:GND")
+		(at 254 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "904aa8d0-775f-4c7a-be5e-06935a5df0c8")
-		(property "Reference" "Q5"
-			(at 43.18 36.8046 90)
+		(fields_autoplaced yes)
+		(uuid "a375e36e-736e-401c-8650-5695e954edd4")
+		(property "Reference" "#PWR0141"
+			(at 254 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 43.18 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 41.275 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 43.18 30.48 0)
+		(property "Value" "GND"
+			(at 254 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 30.48 0)
+		(property "Datasheet" ""
+			(at 254 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "8e881e97-f86f-48d9-9e76-ee871db015a6")
+			(uuid "1063b1cc-736f-4003-b6ae-ff089091a949")
 		)
-		(pin "3"
-			(uuid "e6ca1b1a-18cb-419c-8114-29f50d8bd7fe")
+		(instances
+			(project ""
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 270.51 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "accc3a47-b3e3-4bc2-a202-5a87c0b06e39")
+		(property "Reference" "TB29"
+			(at 274.066 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 270.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "737be420-c9b3-4007-9ac8-a315d1603c58")
+			(uuid "3f30abdc-60ae-4d1c-9c0d-530a770cd1f8")
+		)
+		(pin "1"
+			(uuid "799bc516-1c1a-4d94-aa68-449124f4bb54")
 		)
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "Q5")
+					(reference "TB29")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b557c3c7-e446-42b9-bfff-2416de388b10")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 85.09 100.33 0)
 			(effects
 				(font
@@ -3293,7 +3923,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3308,7 +3938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d26a213a-356f-4562-ae18-11a4fd982569")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -3357,7 +3987,7 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3372,7 +4002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de40a6c0-d523-4fea-86ac-98ff0f63af06")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 85.09 119.38 0)
 			(effects
 				(font
@@ -3421,31 +4051,32 @@
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 44.45 57.15 270)
+		(lib_id "Transistor_FET:2N7002")
+		(at 43.18 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff457b1b-0619-4ac9-be3d-a3fe4bc18811")
-		(property "Reference" "Q6"
-			(at 44.45 63.4746 90)
+		(fields_autoplaced yes)
+		(uuid "eb77747e-3835-4ff3-9383-6b685761e49f")
+		(property "Reference" "Q7"
+			(at 43.18 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BSS138"
-			(at 44.45 65.786 90)
+		(property "Value" "2N7002"
+			(at 43.18 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +4084,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 42.545 62.23 0)
+			(at 41.275 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,8 +4094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 44.45 57.15 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 39.37 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,34 +4104,196 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 44.45 57.15 0)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 43.18 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8663cee7-a4a3-4a5b-9cb7-d73c4787796d")
+		)
+		(pin "3"
+			(uuid "68a392b2-977e-4342-976e-ea773c6d4a82")
+		)
+		(pin "1"
+			(uuid "bc4e4984-a775-4143-afde-7eb3577022c0")
+		)
+		(instances
+			(project ""
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 262.89 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f737ddb3-3214-4b91-a452-08cca6cd8303")
+		(property "Reference" "#PWR0142"
+			(at 262.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 262.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
-			(uuid "1526837c-1f0b-42e4-af22-c452ef265da3")
+		(property "Footprint" ""
+			(at 262.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "e197a3a9-b1bd-4d63-9bea-8f5ff18468bc")
+		(property "Datasheet" ""
+			(at 262.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 262.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18dec7e8-51ff-4799-baa8-55289bd7c239")
+		)
+		(instances
+			(project ""
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 270.51 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffa10cad-dea2-45e5-9b9c-af260ca6ccb8")
+		(property "Reference" "TB30"
+			(at 274.066 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+			(at 270.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 270.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "  MKDSN 1,5/ 2-5,08 "
+			(at 270.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5183989"
+			(at 270.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 270.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "8bc78a74-585b-489a-9ba0-6f4605450791")
+			(uuid "2f9324f6-4935-4ff9-9445-85fc61bc9a63")
+		)
+		(pin "1"
+			(uuid "7a1fdae3-3486-4215-b9cd-be4203a005d6")
 		)
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/9698fb71-dcf7-48f9-beeb-6e6a219382b5"
-					(reference "Q6")
+					(reference "TB30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 181.61 95.25)
+		(at 172.72 95.25)
 		(size 20.32 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3516,7 +4309,7 @@
 		)
 		(uuid "10f00d49-e652-449c-9bf9-231ea615e92b")
 		(property "Sheetname" "Port Setup"
-			(at 181.61 94.5384 0)
+			(at 172.72 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +4318,7 @@
 			)
 		)
 		(property "Sheetfile" "port-setup.kicad_sch"
-			(at 181.61 100.9146 0)
+			(at 172.72 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +4327,7 @@
 			)
 		)
 		(pin "OUT[0..7]" output
-			(at 201.93 97.79 0)
+			(at 193.04 97.79 0)
 			(uuid "8cf2994b-e254-4d2f-84d9-71c2fb91580b")
 			(effects
 				(font
@@ -3544,7 +4337,7 @@
 			)
 		)
 		(pin "P[0..7]" input
-			(at 181.61 97.79 180)
+			(at 172.72 97.79 180)
 			(uuid "b1ce44d1-1b6c-47f8-9e0f-13ad15b301cf")
 			(effects
 				(font
@@ -3562,7 +4355,7 @@
 		)
 	)
 	(sheet
-		(at 217.17 113.03)
+		(at 203.2 113.03)
 		(size 50.8 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3578,7 +4371,7 @@
 		)
 		(uuid "2bef6c2e-74ff-4829-8d82-52af180a390c")
 		(property "Sheetname" "Output PortD"
-			(at 217.17 112.3184 0)
+			(at 203.2 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +4380,7 @@
 			)
 		)
 		(property "Sheetfile" "outputs.kicad_sch"
-			(at 217.17 126.3146 0)
+			(at 203.2 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,38 +4388,8 @@
 				(justify left top)
 			)
 		)
-		(pin "COMM[0..1]" output
-			(at 267.97 123.19 0)
-			(uuid "efaed836-1226-47bd-bec5-e07e5f4d58e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NC[0..7]" output
-			(at 267.97 118.11 0)
-			(uuid "2dd3e718-33fc-4f2a-8be3-8822dbaefd47")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NO[0..7]" output
-			(at 267.97 115.57 0)
-			(uuid "2e3f8af0-af61-41d7-be60-db2752481719")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "OUT[0..7]" input
-			(at 217.17 116.84 180)
+			(at 203.2 116.84 180)
 			(uuid "9f1f0c53-bafa-40a0-bb76-74e6d74a7691")
 			(effects
 				(font
@@ -3736,7 +4499,7 @@
 		)
 	)
 	(sheet
-		(at 217.17 93.98)
+		(at 203.2 93.98)
 		(size 50.8 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3752,7 +4515,7 @@
 		)
 		(uuid "64b3e107-dc0d-4522-a31a-909ae85593e6")
 		(property "Sheetname" "Output PortC"
-			(at 217.17 93.2684 0)
+			(at 203.2 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +4524,7 @@
 			)
 		)
 		(property "Sheetfile" "outputs.kicad_sch"
-			(at 217.17 107.2646 0)
+			(at 203.2 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,38 +4532,8 @@
 				(justify left top)
 			)
 		)
-		(pin "COMM[0..1]" output
-			(at 267.97 104.14 0)
-			(uuid "2b2b775c-0590-4942-b1c8-18dc605c8b93")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NC[0..7]" output
-			(at 267.97 99.06 0)
-			(uuid "5dd6718e-162e-4702-9657-d0e8a4e268c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NO[0..7]" output
-			(at 267.97 96.52 0)
-			(uuid "1cebb9c8-6c4c-4b06-91ef-607c11befb55")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "OUT[0..7]" input
-			(at 217.17 97.79 180)
+			(at 203.2 97.79 180)
 			(uuid "c83e48a1-c0eb-4768-80c0-13a93826a0a1")
 			(effects
 				(font
@@ -4156,7 +4889,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 114.3)
+		(at 172.72 114.3)
 		(size 20.32 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4172,7 +4905,7 @@
 		)
 		(uuid "ee6d5bfe-64f6-446c-ab84-257e42489673")
 		(property "Sheetname" "Port Setup1"
-			(at 181.61 113.5884 0)
+			(at 172.72 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4914,7 @@
 			)
 		)
 		(property "Sheetfile" "port-setup.kicad_sch"
-			(at 181.61 119.9646 0)
+			(at 172.72 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4923,7 @@
 			)
 		)
 		(pin "OUT[0..7]" output
-			(at 201.93 116.84 0)
+			(at 193.04 116.84 0)
 			(uuid "4bd1715c-20b9-4877-92fc-f117723e0f30")
 			(effects
 				(font
@@ -4200,7 +4933,7 @@
 			)
 		)
 		(pin "P[0..7]" input
-			(at 181.61 116.84 180)
+			(at 172.72 116.84 180)
 			(uuid "8cadb5f8-1376-4528-a101-e7bc4e2174d8")
 			(effects
 				(font

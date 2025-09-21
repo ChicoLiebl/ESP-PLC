@@ -448,7 +448,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "ICs"
+      "ICs",
+      "Connectors"
     ],
     "pinned_symbol_libs": [
       "Switch",
@@ -825,6 +826,26 @@
     [
       "ee6d5bfe-64f6-446c-ab84-257e42489673",
       "Port Setup1"
+    ],
+    [
+      "64ee1364-4d78-426d-b9ad-a55a12a607b3",
+      "MikroBUS Socket 0"
+    ],
+    [
+      "3c20e067-c7fb-49bc-8ce9-1b0af8b72b80",
+      "Can Bus"
+    ],
+    [
+      "40ce3f6d-8dc2-41c7-8b42-c9b197634b69",
+      "MikroBUS Socket 1"
+    ],
+    [
+      "3934415a-ba78-42b6-9af9-1ffce969d885",
+      "MikroBUS Socket 2"
+    ],
+    [
+      "9f94c56c-5516-47e0-8f52-63026a461b59",
+      "USB-SERIAL"
     ]
   ],
   "text_variables": {}
