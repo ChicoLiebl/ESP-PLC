@@ -808,7 +808,7 @@
 			(uuid "4615a801-1321-4995-ae34-0c53eb2f4c19")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -816,7 +816,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -1151,7 +1151,7 @@
 			(uuid "9002a618-f660-4d0c-b96d-ec7967dcc181")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1159,7 +1159,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -4890,7 +4890,7 @@
 			(uuid "28bd986f-149f-4cfe-acf3-89d017622027")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4898,7 +4898,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -6004,7 +6004,7 @@
 			(uuid "619fb788-44fe-4797-a5f2-fa1c6ec6fa46")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6012,7 +6012,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -13249,7 +13249,7 @@
 			(uuid "4a5fadef-3c7d-4ba6-980d-5f7dca49e77d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13257,7 +13257,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -14670,7 +14670,7 @@
 			(uuid "c5e787a7-f1f4-4947-82b7-5ed33c6cf2f3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14678,7 +14678,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -15627,7 +15627,7 @@
 			(uuid "e3da375c-239a-4ade-9964-437f6ad7f286")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15635,7 +15635,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -15970,7 +15970,7 @@
 			(uuid "ee990c72-5c07-44b3-b3f4-5610d42435fa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15978,7 +15978,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -16313,7 +16313,7 @@
 			(uuid "9d18f533-2bf3-47c6-a49a-7791fb5103c8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16321,7 +16321,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -32869,7 +32869,7 @@
 			(uuid "e2358dc7-3730-4520-9c37-2ee721ae9213")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32877,7 +32877,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -39260,7 +39260,7 @@
 			(uuid "86fb336c-a6f1-45be-bfe7-a00dd5122765")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39268,7 +39268,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -43884,7 +43884,7 @@
 			(uuid "d514dc53-fc6d-423f-a3a4-959b1d2b24ce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43892,7 +43892,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -45357,7 +45357,7 @@
 			(uuid "bf70cc0a-64df-445c-8368-fe225b66aabf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45365,7 +45365,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -49868,7 +49868,7 @@
 			(uuid "32d6f6b7-664a-416b-a7ce-1aedfe1de7c4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49876,7 +49876,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -50364,7 +50364,7 @@
 			(uuid "c9a2629d-eff9-428d-8a34-a4fbeac0915f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron_G2RL-1.step"
+		(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Omron_G2RL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50372,7 +50372,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
