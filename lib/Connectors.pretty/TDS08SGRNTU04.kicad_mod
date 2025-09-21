@@ -154,4 +154,15 @@
 		(uuid "48bba562-064f-432f-bd40-353b62333410")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/Connectors.3dshapes/c-2319747-8-b-3d.stp"
+		(offset
+			(xyz -5 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

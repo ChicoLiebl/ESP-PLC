@@ -147,7 +147,358 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
+		(symbol "Connectors:SS-12D10L5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS-12D10L5"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connectors:SW-TH_SS-12D10L5"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_XKB-Enterprise-SS-12D10L5_C319012.html"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C319012"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS-12D10L5_0_1"
+				(rectangle
+					(start -6.6 -3.05)
+					(end -3.56 -4.06)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.05) (xy -5.33 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.05) (xy -4.83 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.05) (xy -5.08 0) (xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.52 -3.05)
+					(end 1.52 -4.06)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.51) (xy 0.25 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.05) (xy -0.25 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.05) (xy 0.25 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -0.51) (xy 1.02 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.52 -0.51) (xy 1.78 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.29 -0.51) (xy 2.54 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 -0.51) (xy 3.3 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.56 -3.05)
+					(end 6.6 -4.06)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.51) (xy 4.06 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.57 -0.51) (xy 4.83 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.83 -0.51) (xy 5.08 -0.51) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.76) (xy 5.08 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.05) (xy 4.83 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.05) (xy 5.33 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SS24"
 			(pin_numbers
 				(hide yes)
 			)
@@ -166,7 +517,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "SS24"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -174,7 +525,16 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -183,7 +543,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "40V 2A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -192,7 +552,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -201,7 +561,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,37 +570,10 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
+			(symbol "SS24_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -275,7 +608,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "SS24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -498,182 +831,6 @@
 					(at 6.35 0 180)
 					(length 2.54)
 					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1306,28 +1463,28 @@
 		(uuid "296d9a60-835b-45e8-844a-a60419716295")
 	)
 	(junction
+		(at 78.74 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a25c61c2-5e45-4659-9af9-483385111b3c")
+	)
+	(junction
 		(at 151.13 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b211ff6a-71a3-4793-82b5-1575742db4b7")
 	)
 	(junction
+		(at 91.44 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c15ab731-d49d-44a5-b29b-75c88e1ec043")
+	)
+	(junction
 		(at 91.44 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcc5f7b4-963b-405b-9259-03768964003a")
-	)
-	(junction
-		(at 91.44 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4ab0453-0b15-42c7-a35a-f09eeb5c7db8")
-	)
-	(junction
-		(at 78.74 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb7ab381-5e3a-4228-883c-63612955356f")
 	)
 	(wire
 		(pts
@@ -1501,6 +1658,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 62.23) (xy 69.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0a3690-a525-4e64-a8d5-07b42dfd89c3")
+	)
+	(wire
+		(pts
 			(xy 91.44 31.75) (xy 91.44 34.29)
 		)
 		(stroke
@@ -1631,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 59.69) (xy 59.69 59.69)
+			(xy 57.15 59.69) (xy 64.77 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1768,6 +1935,16 @@
 			(type default)
 		)
 		(uuid "e5b1e6ad-560e-4262-bfac-0633e2b6c526")
+	)
+	(wire
+		(pts
+			(xy 64.77 59.69) (xy 64.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79c6d41-85e3-4b9c-9888-5aa2d0a8c760")
 	)
 	(wire
 		(pts
@@ -1908,6 +2085,76 @@
 		(uuid "cbe4e9b3-c0c6-4caf-aba7-ae363f0e8d27")
 	)
 	(symbol
+		(lib_id "Diode:SS24")
+		(at 78.74 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071d2e5d-9b56-42e2-94a7-2f39189dc83c")
+		(property "Reference" "D2"
+			(at 81.28 36.5124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS24"
+			(at 81.28 39.0524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 74.295 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 2A Schottky Diode, SMA"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca9bbe13-c9b0-4122-ae89-d2fb31d137b3")
+		)
+		(pin "1"
+			(uuid "c2b2cadb-4884-4356-af61-0c5ca0702578")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 60.96 0)
 		(unit 1)
@@ -1974,95 +2221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 91.44 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16a28d90-ccab-4a82-9079-5a206657e0ed")
-		(property "Reference" "D4"
-			(at 93.98 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 93.98 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7280c03-ba8e-4e1e-9399-98285007c354")
-		)
-		(pin "1"
-			(uuid "207d9c0d-8fb1-4e9e-9f40-b7be0f5200b3")
-		)
-		(instances
-			(project "esp32-didatic-kit"
-				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
+		(lib_id "Diode:SS24")
 		(at 91.44 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2070,9 +2229,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "182064ec-d33f-44c3-a5e7-aed383c8d3c3")
+		(uuid "34bacc16-e188-4613-a908-7b55baf20af3")
 		(property "Reference" "D3"
-			(at 93.98 36.8299 90)
+			(at 93.98 36.5124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,8 +2239,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 93.98 39.3699 90)
+		(property "Value" "SS24"
+			(at 93.98 39.0524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2248,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 86.995 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
 			(at 91.44 38.1 0)
 			(effects
 				(font
@@ -2098,34 +2266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" "40V 2A Schottky Diode, SMA"
 			(at 91.44 38.1 0)
 			(effects
 				(font
@@ -2135,15 +2276,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "ad07f12a-5414-45ee-bc2a-8e616f794903")
+			(uuid "87185c3c-5687-40d8-ac02-f928683d54d8")
 		)
 		(pin "1"
-			(uuid "280a79d4-52b6-4e8a-aa73-2a3c1edea7c6")
+			(uuid "944dc6f2-14b9-4ed7-9256-c6c32e7adc0b")
 		)
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS24")
+		(at 78.74 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3724eeca-ffb0-4f35-b332-32e4755afe61")
+		(property "Reference" "D1"
+			(at 81.28 51.7524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS24"
+			(at 81.28 54.2924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 74.295 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 2A Schottky Diode, SMA"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72953d7a-20a4-4ca8-ae20-99be972a87e0")
+		)
+		(pin "1"
+			(uuid "1f98c644-3c59-4b53-9dca-ec5dddd94154")
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -2416,17 +2627,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 78.74 53.34 270)
+		(lib_id "Connectors:SS-12D10L5")
+		(at 64.77 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51c06864-3f57-436d-b19b-f25576b03667")
-		(property "Reference" "D2"
-			(at 81.28 52.0699 90)
+		(uuid "6be3d9ab-895b-4fb4-b5ed-c15a5c4e1ca2")
+		(property "Reference" "SW8"
+			(at 72.39 67.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,8 +2645,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 81.28 54.6099 90)
+		(property "Value" "SS-12D10L5"
+			(at 72.39 70.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,8 +2654,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 53.34 0)
+		(property "Footprint" "Connectors:SW-TH_SS-12D10L5"
+			(at 64.77 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,8 +2663,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 78.74 53.34 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_XKB-Enterprise-SS-12D10L5_C319012.html"
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,8 +2672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 78.74 53.34 0)
+		(property "Description" ""
+			(at 64.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,34 +2681,28 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 78.74 53.34 0)
+		(property "LCSC Part" "C319012"
+			(at 64.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10b9d2d0-bc17-44e3-885d-aeaa579f6893")
 		)
 		(pin "1"
-			(uuid "186f1e17-6ab5-49a4-bd9c-0e7fedb403c8")
+			(uuid "8cd723da-d7ed-4e63-b5e8-637cb01ae160")
+		)
+		(pin "2"
+			(uuid "ec898396-22ad-4d5c-9cf5-f163db13558c")
+		)
+		(pin "3"
+			(uuid "27187c88-b713-4436-adb1-c7c77fef774e")
 		)
 		(instances
-			(project "esp32-didatic-kit"
+			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "D2")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -2570,94 +2775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 78.74 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1da687b-fe69-49cb-8f6a-bc7cb12a5bb4")
-		(property "Reference" "D1"
-			(at 81.28 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 81.28 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "38e0ac0a-9650-4818-92f0-54e423381dee")
-		)
-		(pin "1"
-			(uuid "0cc3d192-2671-4a7a-9fd9-2164885a56a5")
-		)
-		(instances
-			(project "esp32-didatic-kit"
-				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 173.99 114.3 0)
 		(unit 1)
@@ -2718,77 +2835,6 @@
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 64.77 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3ae25fe-22b5-46a2-93ec-faa8c7afc2c9")
-		(property "Reference" "SW1"
-			(at 64.77 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "POWER SWITCH"
-			(at 64.77 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "542775f6-8ecf-4011-90f1-b9f648a38088")
-		)
-		(pin "3"
-			(uuid "da96b4f7-9095-4430-8c7f-63f67162f1ea")
-		)
-		(pin "2"
-			(uuid "8eea071c-b35e-42cd-87ba-9e4d8cb0c484")
-		)
-		(instances
-			(project "esp32-didatic-kit"
-				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -2992,6 +3038,76 @@
 			(project ""
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS24")
+		(at 91.44 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89deef9-4578-4184-a074-f216b0e698a8")
+		(property "Reference" "D5"
+			(at 93.98 51.7524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS24"
+			(at 93.98 54.2924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 86.995 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 2A Schottky Diode, SMA"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fc639a5-3ba2-4f61-a520-8817964a91f8")
+		)
+		(pin "1"
+			(uuid "48e3fc9e-bcb5-42e0-98ee-1e852c1172a6")
+		)
+		(instances
+			(project ""
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6/68eb6d36-2b61-4a79-8b9e-43cc2ec0c3c5"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3316,7 +3432,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 26.67)
+		(at 110.49 25.4)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3332,7 +3448,7 @@
 		)
 		(uuid "a4fbb455-48dc-4e33-aa46-f1d410f99810")
 		(property "Sheetname" "Buck 12V"
-			(at 110.49 25.9584 0)
+			(at 110.49 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3457,7 @@
 			)
 		)
 		(property "Sheetfile" "buck12v.kicad_sch"
-			(at 110.49 42.4946 0)
+			(at 110.49 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3466,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 110.49 33.02 180)
+			(at 110.49 31.75 180)
 			(uuid "3cdf8816-9644-43d3-acdc-b36700e8d99b")
 			(effects
 				(font
@@ -3360,7 +3476,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 142.24 33.02 0)
+			(at 142.24 31.75 0)
 			(uuid "6038b17a-14bc-42fb-8f1d-afd9c1436e99")
 			(effects
 				(font

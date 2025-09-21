@@ -605,6 +605,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCSMT",
+          "name": "JLCSMT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -697,7 +721,7 @@
     ],
     [
       "8379860e-8981-4170-acaa-d64afdf257d5",
-      "IO PortA"
+      "IO PortC"
     ],
     [
       "a4f3ba16-b2d9-497e-ba6f-d477f263c557",
@@ -737,19 +761,19 @@
     ],
     [
       "ecc54a16-e833-4b48-9402-1bdf868c1d08",
-      "IO PortB"
-    ],
-    [
-      "6574d7d9-6af9-409e-b5ea-1bf318741d30",
-      "IO PortC"
-    ],
-    [
-      "5496c104-71a9-407f-b983-09bd756c4ea4",
       "IO PortD"
     ],
     [
+      "6574d7d9-6af9-409e-b5ea-1bf318741d30",
+      "IO PortE"
+    ],
+    [
+      "5496c104-71a9-407f-b983-09bd756c4ea4",
+      "IO PortF"
+    ],
+    [
       "64b3e107-dc0d-4522-a31a-909ae85593e6",
-      "Output PortC"
+      "OutputE"
     ],
     [
       "e2f25723-b80d-46a5-ac52-20bfdc9c58b3",
@@ -785,7 +809,7 @@
     ],
     [
       "2bef6c2e-74ff-4829-8d82-52af180a390c",
-      "Output PortD"
+      "OutputF"
     ],
     [
       "e2f25723-b80d-46a5-ac52-20bfdc9c58b3",

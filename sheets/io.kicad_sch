@@ -4370,7 +4370,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2bef6c2e-74ff-4829-8d82-52af180a390c")
-		(property "Sheetname" "Output PortD"
+		(property "Sheetname" "OutputF"
 			(at 203.2 112.3184 0)
 			(effects
 				(font
@@ -4422,7 +4422,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5496c104-71a9-407f-b983-09bd756c4ea4")
-		(property "Sheetname" "IO PortD"
+		(property "Sheetname" "IO PortF"
 			(at 113.03 109.7784 0)
 			(effects
 				(font
@@ -4514,7 +4514,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "64b3e107-dc0d-4522-a31a-909ae85593e6")
-		(property "Sheetname" "Output PortC"
+		(property "Sheetname" "OutputE"
 			(at 203.2 93.2684 0)
 			(effects
 				(font
@@ -4566,7 +4566,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6574d7d9-6af9-409e-b5ea-1bf318741d30")
-		(property "Sheetname" "IO PortC"
+		(property "Sheetname" "IO PortE"
 			(at 113.03 90.7284 0)
 			(effects
 				(font
@@ -4658,7 +4658,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8379860e-8981-4170-acaa-d64afdf257d5")
-		(property "Sheetname" "IO PortA"
+		(property "Sheetname" "IO PortC"
 			(at 113.03 52.6284 0)
 			(effects
 				(font
@@ -4812,7 +4812,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ecc54a16-e833-4b48-9402-1bdf868c1d08")
-		(property "Sheetname" "IO PortB"
+		(property "Sheetname" "IO PortD"
 			(at 113.03 71.6784 0)
 			(effects
 				(font
