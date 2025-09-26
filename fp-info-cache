@@ -1,4 +1,4 @@
-26149759448112314
+26151518839214000
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60943,6 +60943,13 @@ MODULE_ESP32-WROVER-B
 59
 ICs
 PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL
+
+
+0
+8
+8
+ICs
+PDIP8_GW
 
 
 0

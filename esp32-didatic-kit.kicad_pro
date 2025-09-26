@@ -870,6 +870,30 @@
     [
       "9f94c56c-5516-47e0-8f52-63026a461b59",
       "USB-SERIAL"
+    ],
+    [
+      "f5218b5b-f6c1-426e-ab8a-63391f55cc77",
+      "IO Conn"
+    ],
+    [
+      "89192264-e3d6-4e84-a467-258cdb94bb0a",
+      "IO Conn A"
+    ],
+    [
+      "2d41eba4-9cd6-4a42-8af4-1bb292125cf3",
+      "IO Conn B"
+    ],
+    [
+      "f5218b5b-f6c1-426e-ab8a-63391f55cc77",
+      "IO Conn"
+    ],
+    [
+      "f5218b5b-f6c1-426e-ab8a-63391f55cc77",
+      "IO Conn"
+    ],
+    [
+      "f5218b5b-f6c1-426e-ab8a-63391f55cc77",
+      "IO Conn"
     ]
   ],
   "text_variables": {}

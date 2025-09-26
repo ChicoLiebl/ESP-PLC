@@ -1485,12 +1485,6 @@
 		(uuid "76debf63-eb88-42c8-8094-58c71f2b984c")
 	)
 	(junction
-		(at 175.26 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8556e471-9716-4a5c-8644-20168fa7e395")
-	)
-	(junction
 		(at 129.54 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1503,10 +1497,10 @@
 		(uuid "98224b5c-fc38-44a5-88e7-ecb12cd0c563")
 	)
 	(junction
-		(at 182.88 78.74)
+		(at 175.26 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98d6af6e-367a-4376-a0d4-1f8f58ccefad")
+		(uuid "a15064a2-b98b-43d2-9245-39ec43d564fb")
 	)
 	(junction
 		(at 99.06 78.74)
@@ -1521,16 +1515,16 @@
 		(uuid "d8c3fe96-b699-46e1-9d0d-a51b8b62219b")
 	)
 	(junction
-		(at 182.88 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddba5ff9-77ff-4ee6-8b04-d1652ab99a4d")
-	)
-	(junction
 		(at 110.49 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df80c0b9-4e34-4e04-8106-0a73529cb93b")
+	)
+	(junction
+		(at 182.88 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0f0c612-ffe1-4c13-b37d-fd8c2fcef02d")
 	)
 	(wire
 		(pts
@@ -1594,13 +1588,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 182.88 78.74)
+			(xy 182.88 78.74) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f67efcc-2a92-47a1-ae31-c971fcf6a8b1")
+		(uuid "140d9154-2feb-4dc8-8f34-fe181a9f590b")
 	)
 	(wire
 		(pts
@@ -1631,16 +1625,6 @@
 			(type default)
 		)
 		(uuid "17dba44e-7018-49db-9ba2-814e546de0cf")
-	)
-	(wire
-		(pts
-			(xy 190.5 78.74) (xy 182.88 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e92ceb-60c0-4084-adb0-11c97a4818f1")
 	)
 	(wire
 		(pts
@@ -1684,16 +1668,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 182.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52afc6b6-f715-4ee8-82de-3570badcccd2")
-	)
-	(wire
-		(pts
 			(xy 124.46 78.74) (xy 129.54 78.74)
 		)
 		(stroke
@@ -1731,16 +1705,6 @@
 			(type default)
 		)
 		(uuid "70b43e94-7fda-49dd-9434-fe6e7e02ea15")
-	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 182.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a822788-0e33-44cd-ba92-006e0156ba63")
 	)
 	(wire
 		(pts
@@ -1834,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 78.74) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5884262-4a61-488a-8245-67c3525b10e2")
+	)
+	(wire
+		(pts
 			(xy 175.26 78.74) (xy 175.26 100.33)
 		)
 		(stroke
@@ -1844,13 +1818,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 97.79) (xy 182.88 99.06)
+			(xy 175.26 78.74) (xy 182.88 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce92c37f-9a9b-4d17-aff9-57e1cc4526d1")
+		(uuid "cec56f41-60b5-4c2f-a865-60eaadddbddd")
 	)
 	(wire
 		(pts
@@ -1864,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 88.9) (xy 182.88 88.9)
+			(xy 171.45 88.9) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1881,16 +1855,6 @@
 			(type default)
 		)
 		(uuid "de0ae95f-d9da-4b2c-91d1-8e13cdff8887")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 182.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deea2c76-e8b6-4ecd-ae9e-0489d9aae0ab")
 	)
 	(wire
 		(pts
@@ -2353,7 +2317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 120.65 80.518 90)
 			(effects
 				(font
@@ -2371,8 +2335,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 390Ω ±5% 500mW 1210"
 			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 120.65 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs:PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL"
+		(property "Footprint" "ICs:PDIP8_GW"
 			(at 156.21 116.84 0)
 			(effects
 				(font
@@ -2478,6 +2451,24 @@
 		)
 		(property "LCSC Part" "C899522"
 			(at 156.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "6N137SDVM"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2539,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 93.98 180)
+		(at 182.88 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2557,7 +2548,7 @@
 		(fields_autoplaced yes)
 		(uuid "59166f1f-1d25-4398-85a5-fc0074b8dda9")
 		(property "Reference" "R43"
-			(at 185.42 92.7099 0)
+			(at 185.42 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2557,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 185.42 95.2499 0)
+			(at 185.42 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2566,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 184.658 93.98 90)
+			(at 184.658 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 93.98 0)
+			(at 182.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2584,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 93.98 0)
+			(at 182.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 120.65 110.998 90)
 			(effects
 				(font
@@ -2688,7 +2679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 390Ω ±5% 500mW 1210"
 			(at 120.65 109.22 0)
 			(effects
 				(font

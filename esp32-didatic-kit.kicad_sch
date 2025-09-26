@@ -142,7 +142,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 64.77) (xy 189.23 64.77)
+			(xy 180.34 116.84) (xy 187.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -229,6 +229,16 @@
 			(type default)
 		)
 		(uuid "39d3c3da-3591-481f-8d7a-8654334e0f01")
+	)
+	(bus
+		(pts
+			(xy 172.72 49.53) (xy 232.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7278bc-7ad7-42ee-8a47-70d277f13087")
 	)
 	(bus
 		(pts
@@ -420,6 +430,16 @@
 		)
 		(uuid "9730b4bc-c14f-4d03-b190-4376802eb9a2")
 	)
+	(bus
+		(pts
+			(xy 180.34 64.77) (xy 180.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af33fd5-4765-4770-8fbc-d099f8b4c7d2")
+	)
 	(wire
 		(pts
 			(xy 110.49 90.17) (xy 130.81 90.17)
@@ -550,6 +570,16 @@
 		)
 		(uuid "d9dbc52c-97e0-4626-be16-19abccd7ba76")
 	)
+	(bus
+		(pts
+			(xy 180.34 64.77) (xy 172.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6bb9d8-e815-4951-a68a-644371b14ecd")
+	)
 	(wire
 		(pts
 			(xy 36.83 74.93) (xy 36.83 109.22)
@@ -609,6 +639,16 @@
 			(type default)
 		)
 		(uuid "ee09614a-be2e-4848-9b06-83d268c5504c")
+	)
+	(bus
+		(pts
+			(xy 172.72 53.34) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33be392-3da3-4782-b419-5bc971415b23")
 	)
 	(wire
 		(pts
@@ -873,7 +913,7 @@
 		)
 	)
 	(sheet
-		(at 189.23 59.69)
+		(at 187.96 111.76)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -889,7 +929,7 @@
 		)
 		(uuid "3c20e067-c7fb-49bc-8ce9-1b0af8b72b80")
 		(property "Sheetname" "Can Bus"
-			(at 189.23 58.9784 0)
+			(at 187.96 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +938,7 @@
 			)
 		)
 		(property "Sheetfile" "can-bus.kicad_sch"
-			(at 189.23 70.4346 0)
+			(at 187.96 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +947,7 @@
 			)
 		)
 		(pin "CAN{TX,RX}" bidirectional
-			(at 189.23 64.77 180)
+			(at 187.96 116.84 180)
 			(uuid "82254759-e8fc-4c58-96df-806960f477a3")
 			(effects
 				(font
@@ -1354,6 +1394,26 @@
 				(justify left)
 			)
 		)
+		(pin "PA[0..7]" input
+			(at 232.41 49.53 180)
+			(uuid "6ad7d857-9555-499e-9188-7b77d843048b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB[0..7]" input
+			(at 232.41 53.34 180)
+			(uuid "cab00481-bb9b-40d2-98e1-5cda98f7716b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "esp32-didatic-kit"
 				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6"
@@ -1446,16 +1506,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GPIO[1..33]" bidirectional
-			(at 172.72 69.85 0)
-			(uuid "6389f9de-217e-4b06-a27f-d375237afeff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "GPI{34,35,36,39}" input
