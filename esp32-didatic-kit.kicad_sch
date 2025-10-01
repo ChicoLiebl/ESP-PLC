@@ -6,6 +6,12 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
+		(at 201.93 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e05298a-a8c6-4187-99d3-e2697b015f81")
+	)
+	(junction
 		(at 82.55 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -182,6 +188,16 @@
 	)
 	(bus
 		(pts
+			(xy 232.41 85.09) (xy 201.93 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe4d829-2e57-42b0-ad3e-bc2708150ba4")
+	)
+	(bus
+		(pts
 			(xy 180.34 27.94) (xy 82.55 27.94)
 		)
 		(stroke
@@ -239,6 +255,16 @@
 			(type default)
 		)
 		(uuid "3e7278bc-7ad7-42ee-8a47-70d277f13087")
+	)
+	(bus
+		(pts
+			(xy 201.93 41.91) (xy 218.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7b874a-a89d-4c1d-a8d3-f2a09c481cb8")
 	)
 	(bus
 		(pts
@@ -402,7 +428,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 41.91) (xy 218.44 41.91)
+			(xy 172.72 41.91) (xy 201.93 41.91)
 		)
 		(stroke
 			(width 0)
@@ -499,6 +525,16 @@
 			(type default)
 		)
 		(uuid "be50a1ce-6476-450c-8ae3-4b2710b0359b")
+	)
+	(bus
+		(pts
+			(xy 201.93 85.09) (xy 201.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d73146-4f71-41fb-8100-d039a2dd82bc")
 	)
 	(wire
 		(pts
@@ -789,6 +825,58 @@
 			(justify left bottom)
 		)
 		(uuid "dd27e812-56b0-4203-8cc0-e56a70d7fed4")
+	)
+	(sheet
+		(at 232.41 81.28)
+		(size 21.59 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "013486ec-f1b5-4b36-a77f-14b380f08ae7")
+		(property "Sheetname" "Real Time Clock"
+			(at 232.41 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/rtc.kicad_sch"
+			(at 232.41 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{SDA,SCL}" bidirectional
+			(at 232.41 85.09 180)
+			(uuid "45c10018-7fb4-46f2-a981-9cc8ce876fc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "esp32-didatic-kit"
+				(path "/f57920a5-fee7-4fe5-a133-e8b36941a5a6"
+					(page "57")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 44.45 147.32)

@@ -2001,6 +2001,52 @@
 		)
 		(uuid "e048bfe1-b677-4d79-b57d-3d751d48be4d")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 105.41 55.88) (xy 105.41 114.3) (xy 82.55 114.3) (xy 82.55 55.88)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c65a04fe-2a67-4e67-a11c-df0b4ad9ff3f)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 82.55 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19e7ba77-7edb-4e02-8225-2805bcafe1ae")
+		(property "Netclass" "Inputs"
+			(at 83.2485 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -77.47 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 195.58 73.66 0)

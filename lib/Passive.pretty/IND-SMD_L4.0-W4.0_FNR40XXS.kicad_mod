@@ -1,22 +1,130 @@
-(module easyeda2kicad:IND-SMD_L4.0-W4.0_FNR40XXS (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "IND-SMD_L4.0-W4.0_FNR40XXS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "2de69c26-1243-45c4-a6ff-5a178b086dc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L4.0-W4.0_FNR40XXS"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "664b2c66-75e9-4e90-864f-4a13577ddb8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "846d6ce2-0f84-482c-a451-86117a9ea643")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf1be003-83a3-4f4f-9128-df5c039ea0ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2 -2.1)
+		(end 2 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76a8206f-599f-447e-a9b7-43aff3ae42b9")
 	)
-	(fp_text value IND-SMD_L4.0-W4.0_FNR40XXS (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2 2.1)
+		(end 2 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6200974-a19c-4896-a644-78710dd5c9db")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5bb9fe4f-0048-485e-ac30-40ecb8ca7bdd")
 	)
-	(fp_line (start -2.00 -2.10) (end 2.00 -2.10) (layer F.SilkS) (width 0.20))
-	(fp_line (start -2.00 2.10) (end 2.00 2.10) (layer F.SilkS) (width 0.20))
-	(pad 1 smd rect (at -1.50 0.00 0.00) (size 1.60 3.90) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at 1.50 0.00 0.00) (size 1.60 3.90) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -2.00 2.00) (end -1.97 2.00) (layer F.Fab) (width 0.06))
+	(fp_circle
+		(center -2 2)
+		(end -1.97 2)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b79fb09c-e0b9-4cb6-86d5-bd0c34d7874e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "38261c26-185c-42da-b1b8-bb775785129f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.6 3.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f8644121-0a6b-40fe-be5d-5b658af81dc9")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.6 3.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "915a0e5e-d625-4f57-b422-87a9ef0006f8")
+	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/Passive.3dshapes/IND-SMD_L4.0-W4.0-H2.6_FNR40XXS.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 90))
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
 	)
 )
