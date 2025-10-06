@@ -1,2 +1,3 @@
 esp32-didatic-kit-backups/**
 plt/*
+**/**.lck
