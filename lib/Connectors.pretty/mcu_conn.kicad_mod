@@ -292,16 +292,17 @@
 		(layer "F.SilkS")
 		(uuid "f8c2a50f-f4d6-4b27-a4aa-536a2f1efcdd")
 	)
-	(fp_rect
-		(start -29 -22)
-		(end 29 20)
+	(fp_poly
+		(pts
+			(xy 29 20) (xy 22 20) (xy 22 -15) (xy -22 -15) (xy -22 20) (xy -29 20) (xy -29 -22) (xy 29 -22)
+		)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "217532cb-1068-47c9-8209-de987fd8f915")
+		(uuid "dca5d430-67d5-4d32-b1e2-516085904da4")
 	)
 	(fp_line
 		(start -27.81 -20)

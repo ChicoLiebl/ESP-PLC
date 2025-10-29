@@ -1017,7 +1017,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 81.28) (xy 115.57 81.28)
+			(xy 110.49 81.28) (xy 115.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1458,7 @@
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
-		(at 101.6 81.28 180)
+		(at 110.49 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)

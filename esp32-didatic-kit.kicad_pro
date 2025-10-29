@@ -637,6 +637,9 @@
       "/IO/OutputE/NO3": [
         "HV"
       ],
+      "/IO/OutputE/NO4": [
+        "HV"
+      ],
       "/IO/OutputE/NO5": [
         "HV"
       ],
@@ -692,6 +695,9 @@
         "HV"
       ],
       "/IO/OutputF/NO3": [
+        "HV"
+      ],
+      "/IO/OutputF/NO4": [
         "HV"
       ],
       "/IO/OutputF/NO5": [
@@ -1121,6 +1127,10 @@
     [
       "013486ec-f1b5-4b36-a77f-14b380f08ae7",
       "Real Time Clock"
+    ],
+    [
+      "479f832a-4c55-4a16-b143-3d4aff80599b",
+      "VSPI Split"
     ],
     [
       "f5218b5b-f6c1-426e-ab8a-63391f55cc77",
